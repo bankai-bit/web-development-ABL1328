@@ -1,0 +1,396 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameZone - Gaming & Esports</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0b18;
+    color: white;
+}
+
+
+header {
+    background: #15152b;
+    padding: 20px 7%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #00f5ff;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+   
+    margin: 10px;
+  
+}
+
+nav a:hover {
+    color: #00f5ff;
+}
+
+
+.hero {
+    min-height: 400px;
+    background: linear-gradient(120deg, #15152b, #342060, #10102b);
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #00f5ff;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #00d9ff;
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ff00d4;
+    color: white;
+}
+
+section {
+    padding: 55px 7%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    color: #00f5ff;
+    margin-bottom: 30px;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    background: #191930;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #29294a;
+}
+
+.card:hover {
+    background: #252545;
+}
+
+.card h3 {
+    color: #00f5ff;
+    margin: 15px 0;
+}
+
+.game-icon {
+    font-size: 55px;
+}
+
+/* Tournament */
+.tournament {
+    background: #15152b;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #00f5ff;
+    border-radius: 8px;
+}
+
+.tournament h3 {
+    color: #00f5ff;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #191930;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #353553;
+}
+
+th {
+    background: #29294a;
+    color: #00f5ff;
+}
+
+tr:hover {
+    background: #252545;
+}
+
+.news {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background: #191930;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.news:hover {
+    background: #252545;
+}
+
+.news h3 {
+    color: #00f5ff;
+    margin-bottom: 12px;
+}
+
+ .class{
+    background: #15152b;
+    text-align: center;
+    padding: 25px;
+    color: #aaa;
+}
+
+</style>
+</head>
+
+<body>
+
+    <div class="logo">🎮 GameZone</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#tournaments">Tournaments</a>
+        <a href="#teams">Teams</a>
+        <a href="#players">Players</a>
+        <a href="#leaderboard">Leaderboard</a>
+        <a href="#news">News</a>
+    </nav>
+<section class="hero" id="home">
+    <h1>WELCOME TO GAMEZONE</h1>
+    <p>Explore Games, Compete in Tournaments and Become a Champion!</p>
+    <a href="#games" class="btn">Explore Games</a>
+</section>
+
+<!-- Games Section -->
+<section id="games">
+    <h2 class="section-title">Popular Games</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="game-icon">🔫</div>
+            <h3>BGMI</h3>
+            <p>Battle Royale Multiplayer Game</p>
+        </div>
+
+        <div class="card">
+            <div class="game-icon">⚔️</div>
+            <h3>Valorant</h3>
+            <p>Competitive Tactical Shooting Game</p>
+        </div>
+
+        <div class="card">
+            <div class="game-icon">🏎️</div>
+            <h3>Free Fire</h3>
+            <p>Survival Battle Royale Game</p>
+        </div>
+
+        <div class="card">
+            <div class="game-icon">⚽</div>
+            <h3>EA Sports FC</h3>
+            <p>Football Sports Gaming</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Tournament Section -->
+<section id="tournaments">
+    <h2 class="section-title">Upcoming Tournaments</h2>
+
+    <div class="tournament">
+        <h3>BGMI Championship 2026</h3>
+        <p>Date: 20 November 2026</p>
+        <p>Prize Pool: ₹50,000</p>
+        <p>Status: Registration Open</p>
+    </div>
+
+    <div class="tournament">
+        <h3>Valorant Pro League</h3>
+        <p>Date: 25 November 2026</p>
+        <p>Prize Pool: ₹75,000</p>
+        <p>Status: Registration Open</p>
+    </div>
+
+    <div class="tournament">
+        <h3>Free Fire Battle Cup</h3>
+        <p>Date: 30 November 2026</p>
+        <p>Prize Pool: ₹30,000</p>
+        <p>Status: Coming Soon</p>
+    </div>
+</section>
+
+<!-- Teams Section -->
+<section id="teams">
+    <h2 class="section-title">Our Esports Teams</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="game-icon">🔥</div>
+            <h3>Team Phoenix</h3>
+            <p>Game: BGMI</p>
+            <p>Members: 5</p>
+        </div>
+
+        <div class="card">
+            <div class="game-icon">🐉</div>
+            <h3>Team Dragons</h3>
+            <p>Game: Valorant</p>
+            <p>Members: 5</p>
+        </div>
+
+        <div class="card">
+            <div class="game-icon">👑</div>
+            <h3>Team Legends</h3>
+            <p>Game: Free Fire</p>
+            <p>Members: 4</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Player Profiles -->
+<section id="players">
+    <h2 class="section-title">Top Players</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="game-icon">👤</div>
+            <h3>Shadow</h3>
+            <p>Game: BGMI</p>
+            <p>Role: Sniper</p>
+        </div>
+
+        <div class="card">
+            <div class="game-icon">👤</div>
+            <h3>Blaze</h3>
+            <p>Game: Valorant</p>
+            <p>Role: Duelist</p>
+        </div>
+
+        <div class="card">
+            <div class="game-icon">👤</div>
+            <h3>Hunter</h3>
+            <p>Game: Free Fire</p>
+            <p>Role: Attacker</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Leaderboard -->
+<section id="leaderboard">
+    <h2 class="section-title">Player Leaderboard</h2>
+
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Team</th>
+            <th>Points</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Shadow</td>
+            <td>Team Phoenix</td>
+            <td>2500</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Blaze</td>
+            <td>Team Dragons</td>
+            <td>2200</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Hunter</td>
+            <td>Team Legends</td>
+            <td>2000</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Storm</td>
+            <td>Team Phoenix</td>
+            <td>1800</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Gaming News -->
+<section id="news">
+    <h2 class="section-title">Latest Gaming News</h2>
+
+    <div class="cards">
+
+        <div class="news">
+            <h3>BGMI Tournament Announced</h3>
+            <p>A new gaming championship is coming soon.
+            Get ready to participate and win exciting prizes!</p>
+        </div>
+
+        <div class="news">
+            <h3>Valorant New Update</h3>
+            <p>New features, maps and exciting gameplay
+            improvements are coming to Valorant.</p>
+        </div>
+
+        <div class="news">
+            <h3>Esports Championship</h3>
+            <p>Top gaming teams are preparing for the
+            upcoming esports championship.</p>
+        </div>
+
+    </div>
+</section>
+<div class="class">
+    <h3>🎮 GameZone Gaming Community</h3>
+    <p>Play Together | Compete Together | Win Together</p>
+    <p>© 2026 GameZone. All Rights Reserved.</p>
+</div>
+</body>
+</html>
